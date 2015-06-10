@@ -126,7 +126,7 @@ Yes.
 As general guidance:
 
 * Most standard telemetry (that is, telemetry sent without you writing any code) does not include explicit PII. However, it might be possible to identify individuals by inference from a collection of events.
-* Exceptions, crashes, and trace messages could contain PII
+* Exceptions and trace messages could contain PII.  Crashes from windows phone and store could also contain PII.
 * Custom telemetry - that is, calls such as TrackEvent that you write in code using the API or log traces - can contain any data you choose.
 
 
